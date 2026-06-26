@@ -63,6 +63,18 @@ services:
     networks:
       - app-network
 
+  mcp:
+    build:
+      context: ./mcp-postgres
+    ports:
+      - "3100:3100"
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app-network
+
 networks:
   app-network:
     driver: bridge
