@@ -19,3 +19,10 @@ npm-debug.log*
 
 # Claude
 .claude/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+terraform/
+.terraform/
+crash.log

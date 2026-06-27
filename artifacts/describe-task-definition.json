@@ -1,0 +1,133 @@
+{
+    "taskDefinition": {
+        "taskDefinitionArn": "arn:aws:ecs:us-west-2:111122223333:task-definition/docker-sandpit:2",
+        "containerDefinitions": [
+            {
+                "name": "app",
+                "image": "111122223333.dkr.ecr.us-west-2.amazonaws.com/docker-sandpit:68975d9-ssl",
+                "cpu": 0,
+                "portMappings": [
+                    {
+                        "containerPort": 3000,
+                        "hostPort": 3000,
+                        "protocol": "tcp"
+                    }
+                ],
+                "essential": true,
+                "command": [
+                    "sh",
+                    "-c",
+                    "npx knex migrate:latest && node src/index.js"
+                ],
+                "environment": [
+                    {
+                        "name": "REDIS_HOST",
+                        "value": "REPLACE_WITH_ELASTICACHE_ENDPOINT.usw2.cache.amazonaws.com"
+                    },
+                    {
+                        "name": "PORT",
+                        "value": "3000"
+                    },
+                    {
+                        "name": "REDIS_PORT",
+                        "value": "6379"
+                    },
+                    {
+                        "name": "DB_PORT",
+                        "value": "5432"
+                    },
+                    {
+                        "name": "JWT_SECRET",
+                        "value": "REPLACE_WITH_JWT_SECRET"
+                    },
+                    {
+                        "name": "DB_USER",
+                        "value": "cards_user"
+                    },
+                    {
+                        "name": "NODE_ENV",
+                        "value": "production"
+                    },
+                    {
+                        "name": "DB_NAME",
+                        "value": "cards_db"
+                    },
+                    {
+                        "name": "JWT_EXPIRES_IN",
+                        "value": "24h"
+                    },
+                    {
+                        "name": "DB_HOST",
+                        "value": "REPLACE_WITH_RDS_ENDPOINT.us-west-2.rds.amazonaws.com"
+                    },
+                    {
+                        "name": "DB_PASSWORD",
+                        "value": "REPLACE_WITH_DB_PASSWORD"
+                    }
+                ],
+                "mountPoints": [],
+                "volumesFrom": [],
+                "logConfiguration": {
+                    "logDriver": "awslogs",
+                    "options": {
+                        "awslogs-group": "/ecs/docker-sandpit",
+                        "awslogs-region": "us-west-2",
+                        "awslogs-stream-prefix": "app"
+                    }
+                },
+                "systemControls": []
+            }
+        ],
+        "family": "docker-sandpit",
+        "taskRoleArn": "arn:aws:iam::111122223333:role/docker-sandpit-task",
+        "executionRoleArn": "arn:aws:iam::111122223333:role/docker-sandpit-task-exec",
+        "networkMode": "awsvpc",
+        "revision": 2,
+        "volumes": [],
+        "status": "ACTIVE",
+        "requiresAttributes": [
+            {
+                "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+            },
+            {
+                "name": "ecs.capability.execution-role-awslogs"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.ecr-auth"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.task-iam-role"
+            },
+            {
+                "name": "ecs.capability.execution-role-ecr-pull"
+            },
+            {
+                "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+            },
+            {
+                "name": "ecs.capability.task-eni"
+            }
+        ],
+        "placementConstraints": [],
+        "compatibilities": [
+            "EC2",
+            "FARGATE",
+            "MANAGED_INSTANCES"
+        ],
+        "runtimePlatform": {
+            "cpuArchitecture": "ARM64",
+            "operatingSystemFamily": "LINUX"
+        },
+        "requiresCompatibilities": [
+            "FARGATE"
+        ],
+        "cpu": "512",
+        "memory": "1024",
+        "registeredAt": "2026-06-27T12:20:18.380000+05:30",
+        "registeredBy": "arn:aws:iam::111122223333:user/docker-sandpit-tf"
+    },
+    "tags": []
+}

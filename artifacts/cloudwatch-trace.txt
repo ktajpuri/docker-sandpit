@@ -1,0 +1,132 @@
+2026-06-27T06:26:06.181000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5 ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-06-27T06:26:06.182000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5 Using environment: production
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5 error: no pg_hba.conf entry for host "172.31.20.159", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at Socket.emit (node:events:509:28)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:26:06.505000+00:00 app/app/4ad731faf8a64a5d926e9e790afe3da5     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:27:20.114000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a ◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-06-27T06:27:20.166000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a Using environment: production
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a error: no pg_hba.conf entry for host "172.31.0.138", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at Socket.emit (node:events:509:28)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:27:20.494000+00:00 app/app/0583aeea2c084cc795a878fc4c7d982a     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:32:33.462000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35 ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-06-27T06:32:33.462000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35 Using environment: production
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35 error: no pg_hba.conf entry for host "172.31.43.70", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at Socket.emit (node:events:509:28)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:32:33.778000+00:00 app/app/36e4de7a50b546938785e5306ce6fc35     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:33:36.189000+00:00 app/app/1429dd1cc26a417292186206985fc358 ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-06-27T06:33:36.190000+00:00 app/app/1429dd1cc26a417292186206985fc358 Using environment: production
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358 error: no pg_hba.conf entry for host "172.31.50.114", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at Socket.emit (node:events:509:28)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:33:36.562000+00:00 app/app/1429dd1cc26a417292186206985fc358     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:38:31.766000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2 ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-06-27T06:38:31.767000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2 Using environment: production
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2 error: no pg_hba.conf entry for host "172.31.18.1", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at Socket.emit (node:events:509:28)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:38:32.145000+00:00 app/app/4ed26d78f6eb491cb3c693b1059adbf2     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:40:06.484000+00:00 app/app/05441b361a264e3cac8e43759cf435c2 ◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+2026-06-27T06:40:06.486000+00:00 app/app/05441b361a264e3cac8e43759cf435c2 Using environment: production
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2 error: no pg_hba.conf entry for host "172.31.0.90", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at Socket.emit (node:events:509:28)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:40:06.875000+00:00 app/app/05441b361a264e3cac8e43759cf435c2     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:44:25.424000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44 ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+2026-06-27T06:44:25.491000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44 Using environment: production
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44 error: no pg_hba.conf entry for host "172.31.46.24", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at Socket.emit (node:events:509:28)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:44:25.806000+00:00 app/app/1dd9a7188ec1429a8fcfc866ad416c44     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:46:41.987000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1 ◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+2026-06-27T06:46:42.044000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1 Using environment: production
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1 error: no pg_hba.conf entry for host "172.31.16.40", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at Socket.emit (node:events:509:28)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:46:42.372000+00:00 app/app/cada98fa35924a56bd62372ed788a1f1     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:50:20.655000+00:00 app/app/caf05218e3f440e7923403b59203ec89 ◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+2026-06-27T06:50:20.657000+00:00 app/app/caf05218e3f440e7923403b59203ec89 Using environment: production
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89 error: no pg_hba.conf entry for host "172.31.51.162", user "cards_user", database "cards_db", no encryption
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:305:11)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:143:27)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:37:38)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:12:42)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at Socket.emit (node:events:509:28)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at addChunk (node:internal/streams/readable:563:12)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at Readable.push (node:internal/streams/readable:394:5)
+2026-06-27T06:50:20.985000+00:00 app/app/caf05218e3f440e7923403b59203ec89     at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-27T06:53:20.568000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 ◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+2026-06-27T06:53:20.569000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 Using environment: production
+2026-06-27T06:53:21.157000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 Batch 1 run: 2 migrations
+2026-06-27T06:53:21.283000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 ◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+2026-06-27T06:53:22.179000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 ◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+2026-06-27T06:53:22.657000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 Server running on port 3000
+2026-06-27T06:53:44.288000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/auth/register [32m201[0m 292.293 ms - 42[0m
+2026-06-27T06:54:59.880000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/auth/login [32m200[0m 191.020 ms - 183[0m
+2026-06-27T06:55:00.460000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/cards [32m201[0m 12.436 ms - 167[0m
+2026-06-27T06:55:01.010000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mGET /api/cards [32m200[0m 7.803 ms - 169[0m
+2026-06-27T06:55:01.568000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mGET /api/cards [32m200[0m 2.294 ms - 169[0m
+2026-06-27T07:29:31.964000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/auth/register [32m201[0m 178.831 ms - 53[0m
+2026-06-27T07:30:35.164000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/auth/login [32m200[0m 181.787 ms - 197[0m
+2026-06-27T07:31:37.552000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/cards [32m201[0m 8.264 ms - 202[0m
+2026-06-27T07:31:53.475000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/cards [32m201[0m 6.051 ms - 192[0m
+2026-06-27T07:31:58.725000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mGET /api/cards [32m200[0m 5.954 ms - 397[0m
+2026-06-27T07:32:13.705000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mGET /api/cards [32m200[0m 2.571 ms - 397[0m
+2026-06-27T07:32:57.271000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPUT /api/cards/3 [32m200[0m 11.905 ms - 199[0m
+2026-06-27T07:33:17.296000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mGET /api/cards [32m200[0m 5.539 ms - 404[0m
+2026-06-27T08:00:26.067000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/auth/login [32m200[0m 161.064 ms - 197[0m
+2026-06-27T08:00:30.016000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mGET /api/cards [32m200[0m 11.471 ms - 404[0m
+2026-06-27T08:00:42.908000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPOST /api/cards [32m201[0m 8.308 ms - 192[0m
+2026-06-27T08:00:54.124000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mPUT /api/cards/4 [32m200[0m 6.564 ms - 199[0m
+2026-06-27T08:00:58.008000+00:00 app/app/ba431efcf71f4b4ca509a4f3076d4ae9 [0mGET /api/cards [32m200[0m 7.017 ms - 604[0m
